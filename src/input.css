@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https:fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=>swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+/* img{
+    width: 100%;
+} */
+ nav{
+    margin-top: 1%;
+ }
+ .headings{
+    /* height: 100vh;
+    max-width: 600px;
+    display: flex;
+    align-items: center;
+    flex-direction: column; */
+    /* padding: 5%;
+    height: 100%; */
+    margin-top: 15%;
+    margin-left: 8%;
+ }
+ h4{
+    padding-bottom: 1rem;
+ }
+ 
+ /* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  /* width: auto; */
+  padding: 40px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  width: -10%;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+}
+
+ 
+ /* Fading animation */
+ .fade {
+   animation-name: fade;
+   animation-duration: 1.5s;
+ }
+ 
+ @keyframes fade {
+   from {opacity: .4} 
+   to {opacity: 1}
+ }
+ 
+ 

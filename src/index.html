@@ -1,0 +1,136 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="input.css">
+</head>
+<body>
+     
+
+<div class="flex flex-wrap justify-between items-center">
+<!-- Left side:Nav and text -->
+ <div class="w-full md:w-1/2 text-left pt-3  h-screen">
+  <nav class=" flex items-center justify-between py-5 w-full">
+    <div class="flex items-center space-x-1">
+      <img src="images/main-logo.jpg" alt="logo" class="w-20 h-29">
+      <p class="uppercase space-x-6 font-bold  tracking-widest text-lg text-amber-900">gate</p>
+   </div> 
+    <ul class="flex justify-start space-x-4 w-2/4 p-4 text-1xl">
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </ul>
+  </nav>
+
+  <div class="headings flex  items-center  text-center justify-center mx-auto ">
+    <div class="h-screen items-center justify-center w-auto text-left">
+      <div class="text-5xl  p-3 font-bold">
+    <h4 >Comprehensive</h4> 
+    <h4>Enginnering</h4> 
+    <h4>Solutions</h4>
+  </div>
+    <p class="text-xl ">From agricultural machinery to building construction and water engineering, 
+      we offer complete solutions tailored to your needs.</p>
+    </div>
+    </div>
+</div>
+ <div class="w-full md:w-1/2">
+  <img src="images/build2.webp" alt=""class="w-full h-screen">
+</div>
+
+<section id="services" class="h-full w-full ">
+  <div class="flex flex-wrap justify-between items-center p-8">
+<!-- Left side:Nav and text -->
+ <div class="row w-full md:w-1/2 grid grid-cols-2 gap-4 ">
+        <img src="images/pool.avif" class="rounded-lg shadow-lg">
+       
+        <img src="images/bedroom.avif" alt=""class="rounded-lg shadow-lg">
+       
+        <img src="images/bedroom2.avif" alt=""class="rounded-lg shadow-lg">
+       </div>
+       <!-- right side -->
+       <div class="w-full md-1/2 flex flex-col justify-center basis-6/12 p-9">
+
+        <p class="space-x-6 font-bold  tracking-widest text-lg text-amber-900">Who we are</p>
+        <h2 class="text-3xl font-bold mb-4">Providing comprehensive design and construction services for building and civil engineering projects.</h2>
+        <p class="text-lg mb-6 text-gray-500">We have a skilled workforce and access to a variety of equipment, allowing them to handle tasks of varying complexities.</p>
+      <!-- buttons -->
+       <div class="space-y-4">
+        <button class="w-full p-4 mb-6 rounded-lg text-left font-semibold  bg-gray-400 border-amber-700 uppercase">Agricultural Engineering</button>
+       </div>
+       <!-- 2 -->
+       <div class="space-y-4">
+        <button class="w-full p-4 mb-6 rounded-lg text-left font-semibold  bg-gray-400 border-amber-700 uppercase">Water Engineering</button>
+       </div>
+       <!-- 3 -->
+       <div class="space-y-4" >
+        <button class="w-full mb-6 p-4 rounded-lg text-left font-semibold  bg-gray-400 border-yellow-700 uppercase">Building / Civil Engineering</button>
+       </div>
+</div>
+ </div>
+</section>
+<section class="h-2/4 w-screen  p-8 " >
+  <div class="w-2/4 ">
+    <h5 class="font-bold text-4xl ">Ongoing Project</h5>
+    <div class="py-4">
+    <h3 class="uppercase space-x-6 font-bold  tracking-widest text-3xl text-amber-900 ">G A T E C I T Y</h3>
+    <p class="uppercase text-1xl">p a n i s a u</p>
+  </div>
+    <P>Explore the charm of Bagujan Village at the Proposed Gate City Estate. A meticulously planned residential development in Panisau, Ungogo LGA, Kano.
+      Immerse yourself in a vibrant community, surrounded by nature, schools, and shopping centers. Your new home, where convenience meets tranquility.</P>
+  </div>
+ </section>
+ <section class="h-screen w-screen  p-8 ">
+  <div class="w-1/6  bg-yellow-600 p-3 text-white">
+    <p class="text-center uppercase text-2xl">Facilities</p>
+  </div>
+   <div class=" flex overflow-hidden  space-x-4 relative h-screen m-auto w-max p-5">
+
+    <div class="mySlides fade">
+      <img src="images/playground.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class="  text-white text-2xl absolute p-5 w-full top-10 text-center">1-PLAYGROUND</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/event.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">2-EVENT CENTER</div>
+    </div>
+    
+    <div class="mySlides fade">
+      <img src="images/station.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">3-POLICE STATION</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/shopping.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">4-SHOPING ARENA</div>
+    </div>
+
+    <div class="mySlides fade">
+      <img src="images/station.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">4-STATION</div>
+    </div>
+    
+    <a class="prev" onclick="plusSlides(-1)">❮</a>
+    <a class="next" onclick="plusSlides(1)">❯</a>
+   
+    </div>
+    <br>
+    <!-- <div style="text-align:center; margin-top: -3%; padding: 2px;">
+      <span class="dot" onclick="currentSlide(1)"></span> 
+      <span class="dot" onclick="currentSlide(2)"></span> 
+      <span class="dot" onclick="currentSlide(3)"></span> 
+    </div> -->
+   
+    
+    
+ </section>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
+
+
+<!-- npx tailwindcss -i ./src/input.css -o ./src/output.css --watch -->
