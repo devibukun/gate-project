@@ -8,21 +8,18 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
+   
 }
-/* img{
-    width: 100%;
-} */
+body{
+  overflow-x: hidden;
+}
+
+
  nav{
     margin-top: 1%;
  }
+ 
  .headings{
-    /* height: 100vh;
-    max-width: 600px;
-    display: flex;
-    align-items: center;
-    flex-direction: column; */
-    /* padding: 5%;
-    height: 100%; */
     margin-top: 15%;
     margin-left: 8%;
  }
@@ -63,4 +60,41 @@
    to {opacity: 1}
  }
  
- 
+ .col{
+  height: 50%;
+  width: 50%;
+ }
+
+ @media(max-width:320px){
+.header{
+  font-size: 1.9rem;
+  text-align: center;
+}
+body{
+  overflow-x: hidden;
+}
+.whole{
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+ }
+ @media(max-width:425px){
+  .header{
+    font-size: 1.9rem;
+    text-align: center;
+  }
+  .sub-header{
+    text-align: center;
+  }
+  .whole{
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+  .center{
+    flex-basis:100%;
+    padding: 2.5%;
+  }
+  .project{
+    width: 100vh;
+  }
+ }

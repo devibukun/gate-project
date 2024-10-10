@@ -5,39 +5,41 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="./output.css" rel="stylesheet">
   <link rel="stylesheet" href="input.css">
+  <title>Gate Project</title>
 </head>
-<body>
+<body class="">
      
-
-<div class="flex flex-wrap justify-between items-center">
+<main class="whole">
+<div class="flex flex-wrap justify-between  items-center w-full">
 <!-- Left side:Nav and text -->
  <div class="w-full md:w-1/2 text-left pt-3  h-screen">
-  <nav class=" flex items-center justify-between py-5 w-full">
+  <nav class=" flex items-center justify-between py-2 w-full">
     <div class="flex items-center space-x-1">
       <img src="images/main-logo.jpg" alt="logo" class="w-20 h-29">
       <p class="uppercase space-x-6 font-bold  tracking-widest text-lg text-amber-900">gate</p>
    </div> 
-    <ul class="flex justify-start space-x-4 w-2/4 p-4 text-1xl">
-      <a href="#">About</a>
-      <a href="#">Services</a>
-      <a href="#">Contact</a>
+    <ul class="flex justify-start space-x-4 w-3/5 p-2 text-1xl">
+      <a href="#" class="hover:text-yellow-800">About</a>
+      <a href="#" class="hover:text-yellow-700">Services</a>
+      <a href="#" class="hover:text-yellow-700">Contact</a>
     </ul>
   </nav>
 
-  <div class="headings flex  items-center  text-center justify-center mx-auto ">
+  <div class="headings flex  items-center  text-center justify-center mx-auto overflow-hidden ">
     <div class="h-screen items-center justify-center w-auto text-left">
-      <div class="text-5xl  p-3 font-bold">
-    <h4 >Comprehensive</h4> 
+      <div class="text-5xl header p-2 font-bold">
+    <h4>Comprehensive</h4> 
     <h4>Enginnering</h4> 
     <h4>Solutions</h4>
   </div>
-    <p class="text-xl ">From agricultural machinery to building construction and water engineering, 
+    <p class="text-xl sub-header ">From agricultural machinery to building construction and water engineering, 
       we offer complete solutions tailored to your needs.</p>
     </div>
     </div>
 </div>
  <div class="w-full md:w-1/2">
   <img src="images/build2.webp" alt=""class="w-full h-screen">
+</div>
 </div>
 
 <section id="services" class="h-full w-full ">
@@ -51,11 +53,11 @@
         <img src="images/bedroom2.avif" alt=""class="rounded-lg shadow-lg">
        </div>
        <!-- right side -->
-       <div class="w-full md-1/2 flex flex-col justify-center basis-6/12 p-9">
+       <div class="w-full  flex flex-col justify-center  basis-6/12 p-9  center ">
 
-        <p class="space-x-6 font-bold  tracking-widest text-lg text-amber-900">Who we are</p>
-        <h2 class="text-3xl font-bold mb-4">Providing comprehensive design and construction services for building and civil engineering projects.</h2>
-        <p class="text-lg mb-6 text-gray-500">We have a skilled workforce and access to a variety of equipment, allowing them to handle tasks of varying complexities.</p>
+        <p class="space-x-6 font-bold  tracking-widest text-lg text-amber-900 text">Who we are</p>
+        <h2 class="text-3xl font-bold mb-4 text">Providing comprehensive design and construction services for building and civil engineering projects.</h2>
+        <p class="text-lg mb-6 text-gray-500 text">We have a skilled workforce and access to a variety of equipment, allowing them to handle tasks of varying complexities.</p>
       <!-- buttons -->
        <div class="space-y-4">
         <button class="w-full p-4 mb-6 rounded-lg text-left font-semibold  bg-gray-400 border-amber-700 uppercase">Agricultural Engineering</button>
@@ -71,46 +73,48 @@
 </div>
  </div>
 </section>
-<section class="h-2/4 w-screen  p-8 " >
-  <div class="w-2/4 ">
+<section class="h-2/4 w-screen p-8 " >
+  <div class="w-2/4 project">
     <h5 class="font-bold text-4xl ">Ongoing Project</h5>
     <div class="py-4">
     <h3 class="uppercase space-x-6 font-bold  tracking-widest text-3xl text-amber-900 ">G A T E C I T Y</h3>
     <p class="uppercase text-1xl">p a n i s a u</p>
   </div>
-    <P>Explore the charm of Bagujan Village at the Proposed Gate City Estate. A meticulously planned residential development in Panisau, Ungogo LGA, Kano.
-      Immerse yourself in a vibrant community, surrounded by nature, schools, and shopping centers. Your new home, where convenience meets tranquility.</P>
+    <p>Explore the charm of Bagujan Village at the Proposed Gate City Estate. A meticulously planned residential development in Panisau, Ungogo LGA, Kano.
+      Immerse yourself in a vibrant community, surrounded by nature, schools, and shopping centers. Your new home, where convenience meets tranquility.</p>
   </div>
  </section>
- <section class="h-screen w-screen  p-8 ">
+
+ <!-- facilities -->
+ <section class="h-screen w-screen p-8">
   <div class="w-1/6  bg-yellow-600 p-3 text-white">
     <p class="text-center uppercase text-2xl">Facilities</p>
   </div>
    <div class=" flex overflow-hidden  space-x-4 relative h-screen m-auto w-max p-5">
 
     <div class="mySlides fade">
-      <img src="images/playground.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
-      <div class="  text-white text-2xl absolute p-5 w-full top-10 text-center">1-PLAYGROUND</div>
+      <img src="images/playground.jpg" class="w-full h-3/4 ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class="  text-black text-3xl absolute p-5 w-full top-10 text-center">1-PLAYGROUND</div>
     </div>
     
     <div class="mySlides fade">
-      <img src="images/event.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
-      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">2-EVENT CENTER</div>
+      <img src="images/event.jpg" class="w-full h-3/4 ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class="  text-black text-3xl absolute p-5 w-full top-10 text-center">2-EVENT CENTER</div>
     </div>
     
     <div class="mySlides fade">
-      <img src="images/station.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
-      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">3-POLICE STATION</div>
+      <img src="images/station.jpg" class="w-full h-3/4 ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-black text-3xl absolute p-5 w-full top-10 text-center">3-POLICE STATION</div>
     </div>
 
     <div class="mySlides fade">
-      <img src="images/shopping.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
-      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">4-SHOPING ARENA</div>
+      <img src="images/shopping.jpg" class="w-full h-3/4 ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-black text-3xl absolute p-5 w-full top-10 text-center">4-SHOPING ARENA</div>
     </div>
 
     <div class="mySlides fade">
-      <img src="images/station.jpg" class="w-full h-full ease-in-out duration-500 brightness-50 hover:brightness-100">
-      <div class=" text-white text-2xl absolute p-5 w-full top-10 text-center">4-STATION</div>
+      <img src="images/clinic.jpg" class="w-full h-3/4 ease-in-out duration-500 brightness-50 hover:brightness-100">
+      <div class=" text-black text-3xl absolute p-5 w-full top-10 text-center">5-CLINIC</div>
     </div>
     
     <a class="prev" onclick="plusSlides(-1)">❮</a>
@@ -118,16 +122,40 @@
    
     </div>
     <br>
-    <!-- <div style="text-align:center; margin-top: -3%; padding: 2px;">
-      <span class="dot" onclick="currentSlide(1)"></span> 
-      <span class="dot" onclick="currentSlide(2)"></span> 
-      <span class="dot" onclick="currentSlide(3)"></span> 
-    </div> -->
-   
-    
-    
- </section>
+  </section>
+
+  
 </div>
+<!-- Plot -->
+<!-- <section class="h-screen w-full  p-8 "> -->
+  <div class="w-1/6  bg-yellow-600 p-3 text-white">
+    <p class="text-center uppercase text-2xl">Plot</p>
+  </div>
+  <!-- <div class="row p-11 w-full h-full justify-between items-start flex flex-nowrap gap-20 ">
+  <div class="bg-yellow-500 m-4 col flex-row basis-1/3 h-2/3">
+    <div class="text-center flex flex-col items-center justify-center h-full">
+   <h3  class="text-center text-2xl pb-4 font-bold">50 x 50</h3>
+    <p class="text-center text-6xl  font-semibold text-amber-600">2M</p>
+    </div>
+  </div> -->
+  <!-- 2 -->
+  <!-- <div class="bg-yellow-500 m-4 col flex-row basis-1/3 h-3/4 md:basis-full">
+    <div class="text-center flex flex-col items-center justify-center h-full">
+   <h3  class="text-center text-2xl pb-4 font-bold">100 x 100</h3>
+    <p class="text-center text-4xl  font-semibold text-amber-600">Commercial</p>
+    <p class="text-center text-m   ">Obtainable, but structure will have to be one of the facilities</p>
+    </div>
+  </div> -->
+  <!-- 3 -->
+  <!-- <div class="bg-yellow-500 m-4 col flex-row basis-1/3 h-2/3">
+    <div class="text-center flex flex-col items-center justify-center h-full">
+   <h3  class="text-center text-2xl pb-4 font-bold">75 x 50</h3>
+    <p class="text-center text-6xl  font-semibold text-amber-600">2.5M</p>
+    </div>
+  </div>
+</div> -->
+</section>
+</main>
 <script src="script.js"></script>
 </body>
 </html>
